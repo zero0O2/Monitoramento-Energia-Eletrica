@@ -3,7 +3,9 @@ from utils.cadastrar_imovel import Cadastrar_Imovel
 
 
 opcoes = {
-    #Cada opcao vai receber o [texto, funcao] 
+    #recebe entrada, nome e função executavel
+    #em inexistencia de funcao tratar usando if opcao_selecionada == "n":
+    #se nao haver tratamento vai entrar no exept (tentar nao deixar chegar nesse caso)
     "1":["Cadastrar imóvel",Cadastrar_Imovel],
     "2":["Registrar consumo"],
     "3":["Buscar imóveis"],
