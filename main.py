@@ -1,4 +1,4 @@
-import menu
+import utils.menu as menu
 
 opcoes = {
     "1":"Cadastrar imóvel",
@@ -9,7 +9,7 @@ opcoes = {
     "6":"Alertas",
     "7":"Economia potencial",
     "8":"Relatório consolidado",
-    "9":"Sair",
+    "9":"Sair"
 }
 
 opcao_selecionada = menu.Display_Menu(opcoes)
