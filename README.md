@@ -3,7 +3,6 @@ Aplicação de terminal que organiza e analisa informações de consumo de energ
 
 Equipe: Carlos Daniel + Dante Alves Melgaço
 
-
     cadastrar_imovel
     registrar_consumo
     calcular_custo
@@ -13,10 +12,12 @@ Equipe: Carlos Daniel + Dante Alves Melgaço
     atualizar_registro
     calcular_economia
     gerar_relatorio
-
+    
+   
 
 os dados vem de um arquivo proprio para guardar-los utils/dados.py (dados com necessidade de usalos em mais de um lugar)
 
+<pre>
 recebe entrada, nome e função executavel
 em inexistencia de funcao tratar usando if opcao_selecionada == "n":
 em caso de nao haver tratamento entrara no exept 
@@ -24,3 +25,4 @@ opcoes = {
     "1":["Cadastrar imóvel",cadastrar_imovel],
     "9":["Sair"]
 }
+<pre>
