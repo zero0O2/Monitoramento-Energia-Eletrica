@@ -23,3 +23,4 @@ funcoes pendentes [
     calcular_economia
     gerar_relatorio
 ]
+
