@@ -9,6 +9,7 @@ def Display_Menu(opcoes):
     print("")
 
     while True:
+        #se tiver a opção no dic recebido retorna APENAS a chave do obj
         opcao_selecionada = input("Selecione: ")
         if opcao_selecionada not in opcoes:
             print("Opção selecionada não disponivel\n")
