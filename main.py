@@ -1,7 +1,9 @@
 import utils.menu as menu
 from utils.cadastrar_imovel import Cadastrar_Imovel
 
+
 opcoes = {
+    #Cada opcao vai receber o [texto, funcao] 
     "1":["Cadastrar imóvel",Cadastrar_Imovel],
     "2":["Registrar consumo"],
     "3":["Buscar imóveis"],
@@ -15,13 +17,12 @@ opcoes = {
 
 while True :
     opcao_selecionada = menu.Display_Menu(opcoes)
-
     if opcao_selecionada == "9" : 
         print("bye")
         break
-
+    
     try:
         opcoes[opcao_selecionada][1]()
     except Exception as e:
-        print("Opção sem funcionalide ou erro ao iniciala")
-    
+        print("Opção sem funcionalide ou erro ao inicia-la")
+

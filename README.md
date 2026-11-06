@@ -24,3 +24,4 @@ funcoes pendentes [
     gerar_relatorio
 ]
 
+os dados vem de um arquivo proprio para guardar-los utils/dados.py (dados com necessidade de usalos em mais de um lugar)
