@@ -1,5 +1,5 @@
 def Display_Menu(opcoes):
-    print("\n"+"="*45)
+    print("\n\n"+"="*45)
     print(f"{' Monitoramento de Energia Elétrica '.upper(): ^45}")
     print("="*45)
     print(f"{"Selecione uma das opções": ^45}\n")

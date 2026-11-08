@@ -18,13 +18,5 @@ Equipe: Carlos Daniel + Dante Alves Melgaço
 
 os dados vem de um arquivo proprio para guardar-los utils/dados.py (dados com necessidade de usalos em mais de um lugar)
 
-<pre>
-recebe entrada, nome e função executavel
-em inexistencia de funcao tratar usando if opcao_selecionada == "n":
-em caso de nao haver tratamento entrara no exept 
-opcoes = { 
-    "1":["Cadastrar imóvel",cadastrar_imovel],
-    "9":["Sair"]
-}
-</pre>
 https://www.figma.com/board/tO5nIw45uXCCfHMgdXuxlx/projeto?node-id=0-1&t=n0JFYnqa4io5GwCW-0
+=======
