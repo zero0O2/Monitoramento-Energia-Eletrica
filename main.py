@@ -1,4 +1,5 @@
 import utils.menu as menu
+from dados.dados import imoveis
 #puxa so a função envez do arquivo completo
 from utils.cadastrar_imovel import Cadastrar_Imovel
 from utils.registrar_consumo import Registrar_Consumo
@@ -33,5 +34,6 @@ while True :
     try:
         #funcao das opcoes tem que ser chamadas sem nada
         opcoes[opcao_selecionada][1]()
+        print(imoveis)
     except Exception:
         print("Opção sem funcionalide ou erro ao inicia-la (tente novamete)")
