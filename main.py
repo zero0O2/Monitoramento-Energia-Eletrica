@@ -22,18 +22,18 @@ opcoes = {
     "6":["Alertas",Alertas],
     "7":["Economia potencial",Economia_Potencial],
     "8":["Relatório consolidado",Relatorio],
-    "9":["Sair"]
+    "9":["Sair"],
 }
 
 while True :
     opcao_selecionada = menu.Display_Menu(opcoes)
-    if opcao_selecionada == "9" : 
-        print("bye")
-        break
     
+    if opcao_selecionada == "9":
+        print("bye")
+        break 
+
     try:
         #funcao das opcoes tem que ser chamadas sem nada
         opcoes[opcao_selecionada][1]()
-        print(imoveis)
     except Exception:
         print("Opção sem funcionalide ou erro ao inicia-la (tente novamete)")
