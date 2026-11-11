@@ -10,4 +10,10 @@ https://www.figma.com/board/tO5nIw45uXCCfHMgdXuxlx/projeto?node-id=0-1&t=n0JFYnq
     menu - Carlos
     cadastrar_imovel - Dante
     registrar_consumo - Carlos
+    buscar_imoveis -
+    atualizar_registro -
+    comparar_meses - 
+    alertas -
+    economia_potecial -
+    relatorio -
 </pre>
