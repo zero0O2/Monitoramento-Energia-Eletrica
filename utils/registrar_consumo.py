@@ -59,8 +59,14 @@ def Registrar_Consumo():
     while True:
         try:
             kwh = int(input("\nConsumo do mes: "))
-            if kwh >= 1:
-                break
+            if kwh < 0:
+                print("Valores negativos não sao aceitos")
+                continue
+            if kwh == 0:
+                res_cosumo_zero = input("Continuar com consumo 0? ").lower().strip()
+                if res_cosumo_zero == "n" or res_cosumo_zero == "nao" or res_cosumo_zero == "não":
+                    continue
+            break
         except Exception:
             print("Entrada ivalida, tente novamente")
 

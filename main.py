@@ -36,4 +36,4 @@ while True :
         #funcao das opcoes tem que ser chamadas sem nada
         opcoes[opcao_selecionada][1]()
     except Exception as e:
-        print("Opção sem funcionalide ou erro ao inicia-la (tente novamete)",e)
+        print("Opção sem funcionalide ou erro ao inicia-la (tente novamete) - ",e)

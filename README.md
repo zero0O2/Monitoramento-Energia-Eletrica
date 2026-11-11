@@ -6,12 +6,12 @@ Equipe: Carlos Daniel + Dante Alves Melgaço
 https://www.figma.com/board/tO5nIw45uXCCfHMgdXuxlx/projeto?node-id=0-1&t=n0JFYnqa4io5GwCW-0
 
 <pre>
-    main - Carlos
-    menu - Carlos
+    _main - Carlos 
+    _menu - Carlos 
     cadastrar_imovel - Dante
-    registrar_consumo - Carlos
+    _registrar_consumo - Carlos
     buscar_imoveis -
-    atualizar_registro -
+    _atualizar_registro - Carlos 
     comparar_meses - 
     alertas -
     economia_potecial -
