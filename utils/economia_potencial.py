@@ -1,2 +1,3 @@
 def Economia_Potencial():
-    print("Economia potencial foi chamado")
+    print(f"{'= Economia Potencial =':-^45}")
+    

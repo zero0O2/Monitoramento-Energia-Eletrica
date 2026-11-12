@@ -11,6 +11,7 @@ https://www.figma.com/board/tO5nIw45uXCCfHMgdXuxlx/projeto?node-id=0-1&t=n0JFYnq
     _cadastrar_imovel - Dante
     _registrar_consumo - Carlos
     _buscar_imoveis - Carlos
+    _buscar_registros Carlos 
     _atualizar_registro - Carlos 
     _alertas - Dante
 

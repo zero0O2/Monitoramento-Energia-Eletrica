@@ -4,6 +4,7 @@ from dados.dados import imoveis
 from utils.cadastrar_imovel import Cadastrar_Imovel
 from utils.registrar_consumo import Registrar_Consumo
 from utils.buscar_imoveis import Buscar_Imoveis
+from utils.buscar_registros import Buscar_Registros
 from utils.atualizar_registro import Atualizar_Registro
 from utils.comparar_meses import Comparar_Meses
 from utils.alertas import Alertas
@@ -17,11 +18,12 @@ opcoes = {
     "1":["Cadastrar imóvel",Cadastrar_Imovel],
     "2":["Registrar consumo",Registrar_Consumo],
     "3":["Buscar imóveis",Buscar_Imoveis],
-    "4":["Atualizar registro",Atualizar_Registro],
-    "5":["Comparar meses",Comparar_Meses],
-    "6":["Alertas",Alertas],
-    "7":["Economia potencial",Economia_Potencial],
-    "8":["Relatório consolidado",Relatorio],
+    "4":["Buscar registros",Buscar_Registros],
+    "5":["Atualizar registro",Atualizar_Registro],
+    "6":["Comparar meses",Comparar_Meses],
+    "7":["Alertas",Alertas],
+    "8":["Economia potencial",Economia_Potencial],
+    "9":["Relatório consolidado",Relatorio],
     "0":["Sair"],
 }
 
