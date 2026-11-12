@@ -1,3 +1,8 @@
+#pra usar a tabela ja fiz uma funcao dentro de func.calcular_custo_kwh
+#nome da funcao Calcular_Custo_Kwh
+#ela recebe apenas o valor em kwh (ex:230) e ja retorna o valor gasto,ta um pouco confuso mas funciona
+# IMPORTANTE se vier um valor negativo ou zero ela retorna zero,(fazer verificação apos uso)
+
 from dados.dados import tabela_consumo 
 def Calcular_Custo_Kwh(kwh):
     if kwh <= 0:

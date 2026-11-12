@@ -32,8 +32,10 @@ def Economia_Potencial():
     print("="*65)
     for imovel,media_kwh,porcentagem_economica in imoveis_potencial:
         try:
+            #nao to fazendo verificação se volta 0 porque os valores enviados sao subtraidos um com o outro
             media_custo_imovel = Calcular_Custo_Kwh(media_kwh)
             meta_custo_imovel = Calcular_Custo_Kwh(imovel["meta_kwh"])
+            #if media_custo_imovel <= 0 : continue #descomentar se valores 0 tiver quebrando o codigo
         except Exception as e:
             print("Erro ao calcular custos",e)
 
