@@ -22,13 +22,13 @@ opcoes = {
     "6":["Alertas",Alertas],
     "7":["Economia potencial",Economia_Potencial],
     "8":["Relatório consolidado",Relatorio],
-    "9":["Sair"],
+    "0":["Sair"],
 }
 
 while True :
     opcao_selecionada = menu.Display_Menu(opcoes)
     
-    if opcao_selecionada == "9":
+    if opcao_selecionada == "0":
         print("bye")
         break 
 

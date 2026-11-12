@@ -17,7 +17,6 @@ def Registrar_Consumo():
         except Exception:
             print("Erro ao enviar, somente numeros sao permitidos\n")
             continue
-
         tem_imovel = False
         for imovel in imoveis:
             if imovel["id"] == id_imovel:                
@@ -80,7 +79,8 @@ def Registrar_Consumo():
     #aqui é a verificaçao final se a data ja foi cadastrada antes entao ela tem um lugar especifico no nosso "banco" entao so troca o valor na mesma posicao
     #se nunca tiver existido nenhum cadastrado na data so segue o rumo ormal de criacao do registro em um dic new_registro
     if data_ja_cadastrada:
-        registros[indice_registro_repetido] = {"id":registro_repetido["id"],"id_imovel": id_imovel,"data": data,"kwh": kwh}
+        new_registro = {"id":registro_repetido["id"],"id_imovel": id_imovel,"data": data,"kwh": kwh}
+        registros[indice_registro_repetido] = new_registro
     else:
         id_registro = 0
         if len(registros) > 0:
@@ -97,6 +97,6 @@ def Registrar_Consumo():
     print(f"\n{' Registro feito com sucesso ':-^45}\n")
 
     #dando um display em todos os registros pra conseguir ver oq foi feito, resolvi deixar ai
-    for registro in registros:
-        print(registro)
+
+    print(new_registro)
             

@@ -8,12 +8,13 @@ https://www.figma.com/board/tO5nIw45uXCCfHMgdXuxlx/projeto?node-id=0-1&t=n0JFYnq
 <pre>
     _main - Carlos 
     _menu - Carlos 
-    cadastrar_imovel - Dante
+    _cadastrar_imovel - Dante
     _registrar_consumo - Carlos
-    buscar_imoveis -
+    _buscar_imoveis - Carlos
     _atualizar_registro - Carlos 
+    _alertas - Dante
+
     comparar_meses - 
-    alertas -
     economia_potecial -
     relatorio -
 </pre>

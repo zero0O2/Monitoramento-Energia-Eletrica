@@ -4,7 +4,7 @@
 
 #Modelos - caso necessario
 #{"id":(indentificador),"nome":"nome imovel","tipo":"(residencial,comercial ou industrial)","meta_kwh":200}
-#{"id":(indentificado),"id_imovel":3,"mes":"2026-01","kwh":180}
+#{"id":(indentificado),"id_imovel":2,"mes":"2026-01","kwh":180}
 
 #Os id dos novos valores vao ser o id do ultimo valor + 1
 
@@ -80,25 +80,25 @@ registros = [
     },
     {
         "id": 8,
-        "id_imovel": 3,
+        "id_imovel": 2,
         "data": "2026-07",
         "kwh": 165
     },
     {
         "id": 9,
-        "id_imovel": 3,
+        "id_imovel": 2,
         "data": "2026-08",
         "kwh": 155
     },
     {
         "id": 10,
-        "id_imovel": 3,
+        "id_imovel": 2,
         "data": "2026-09",
         "kwh": 210
     },
     {
         "id": 11,
-        "id_imovel": 3,
+        "id_imovel": 2,
         "data": "2026-10",
         "kwh": 180
     }
