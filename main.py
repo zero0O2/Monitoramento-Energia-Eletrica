@@ -27,15 +27,18 @@ opcoes = {
     "0":["Sair"],
 }
 
-while True :
-    opcao_selecionada = menu.Display_Menu(opcoes)
-    
-    if opcao_selecionada == "0":
-        print("bye")
-        break 
+try:
+    while True :
+        opcao_selecionada = menu.Display_Menu(opcoes)
+        
+        if opcao_selecionada == "0":
+            print("bye")
+            break 
 
-    try:
-        #funcao das opcoes tem que ser chamadas sem nada
-        opcoes[opcao_selecionada][1]()
-    except Exception as e:
-        print("Opção sem funcionalide ou erro ao inicia-la (tente novamete) - ",e)
+        try:
+            #funcao das opcoes tem que ser chamadas sem nada
+            opcoes[opcao_selecionada][1]()
+        except Exception as e:
+            print("Opção sem funcionalide ou erro ao inicia-la (tente novamete) - ",e)
+except KeyboardInterrupt:
+    print("\nbye")

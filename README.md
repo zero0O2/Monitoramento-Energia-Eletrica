@@ -14,8 +14,9 @@ https://www.figma.com/board/tO5nIw45uXCCfHMgdXuxlx/projeto?node-id=0-1&t=n0JFYnq
     _buscar_registros Carlos 
     _atualizar_registro - Carlos 
     _alertas - Dante
+    economia_potecial - Carlos
 
     comparar_meses - 
-    economia_potecial -
     relatorio -
 </pre>
+

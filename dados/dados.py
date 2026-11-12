@@ -8,6 +8,13 @@
 
 #Os id dos novos valores vao ser o id do ultimo valor + 1
 
+tabela_consumo = [
+    [(0,100),0.6],
+    [(101,200),0.8],
+    [(201,300),1.0],
+    [(301,"x"),1.3]
+]
+
 imoveis = [
     {
         "id": 0,
@@ -46,7 +53,7 @@ registros = [
         "id": 2,
         "id_imovel": 0,
         "data": "2026-09",
-        "kwh": 310
+        "kwh": 194
     },
     {
         "id": 3,
@@ -64,7 +71,7 @@ registros = [
         "id": 5,
         "id_imovel": 1,
         "data": "2026-08",
-        "kwh": 175
+        "kwh": 15
     },
     {
         "id": 6,
@@ -88,7 +95,7 @@ registros = [
         "id": 9,
         "id_imovel": 2,
         "data": "2026-08",
-        "kwh": 155
+        "kwh": 145
     },
     {
         "id": 10,
